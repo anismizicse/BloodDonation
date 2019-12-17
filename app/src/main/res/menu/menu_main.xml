@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ourdreamit.menuoptions.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/more_apps"
+        android:orderInCategory="100"
+        android:title="@string/more_apps"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/rate_us"
+        android:orderInCategory="100"
+        android:title="@string/rate_us"
+        app:showAsAction="never" />
+</menu>

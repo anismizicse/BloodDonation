@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_girl_old">
+
+
+    <ScrollView
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:isScrollContainer="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <!--<TextView-->
+                <!--style="@style/ButtonText"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="20dp"-->
+                <!--android:background="#ff0000"-->
+                <!--android:gravity="center"-->
+                <!--android:padding="10dp"-->
+                <!--android:text="Send Blood Request" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp">
+
+                    <EditText
+                        android:id="@+id/bloodGroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Blood Group*"
+                        android:inputType="none"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <!--<RelativeLayout-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginRight="14dp"-->
+                    <!--android:layout_weight="1">-->
+
+
+                    <!--<Spinner-->
+                        <!--android:id="@+id/bloodGroup"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="25dp"-->
+                        <!--android:layout_marginBottom="10dp"-->
+                        <!--android:background="@drawable/custom_spinner"-->
+                        <!--android:popupBackground="#ffffff"-->
+                        <!--android:textSize="@dimen/layout_formtext" />-->
+                <!--</RelativeLayout>-->
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right">
+
+                    <EditText
+                        android:id="@+id/bloodBags"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Blood Bags*"
+                        android:inputType="number"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!--<EditText-->
+                    <!--android:id="@+id/bloodBags"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/custom_edittext"-->
+                    <!--android:hint="Blood Bags*"-->
+                    <!--android:inputType="number"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:textSize="@dimen/layout_formtext" />-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginRight="10dp">
+
+                    <EditText
+                        android:id="@+id/patient_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Patient Name*"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!--<EditText-->
+                    <!--android:id="@+id/patient_name"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginRight="10dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/custom_edittext"-->
+                    <!--android:hint="Patient Name*"-->
+                    <!--android:inputType="textPersonName"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:textSize="@dimen/layout_formtext" />-->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right">
+
+                    <EditText
+                        android:id="@+id/contactPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Contact Phone*"
+                        android:inputType="phone"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!--<EditText-->
+                    <!--android:id="@+id/contactPhone"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/custom_edittext"-->
+                    <!--android:hint="Contact Phone*"-->
+                    <!--android:inputType="phone"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:textSize="@dimen/layout_formtext" />-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginRight="10dp">
+
+                    <EditText
+                        android:id="@+id/disease"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Disease*"
+                        android:inputType="text"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!--<EditText-->
+                    <!--android:id="@+id/disease"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginRight="10dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/custom_edittext"-->
+                    <!--android:hint="Disease*"-->
+                    <!--android:inputType="text"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:textSize="@dimen/layout_formtext" />-->
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right">
+
+                    <EditText
+                        android:id="@+id/relation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Relation*"
+                        android:inputType="text"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!--<EditText-->
+                    <!--android:id="@+id/relation"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/custom_edittext"-->
+                    <!--android:hint="Relation*"-->
+                    <!--android:inputType="text"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:textSize="@dimen/layout_formtext" />-->
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginRight="10dp">
+
+                    <EditText
+                        android:id="@+id/patientHos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Hospital*"
+                        android:inputType="text"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <!--<EditText-->
+                    <!--android:id="@+id/patientHos"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginRight="10dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/custom_edittext"-->
+                    <!--android:hint="Hospital*"-->
+                    <!--android:inputType="text"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:textSize="@dimen/layout_formtext" />-->
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right">
+
+                    <EditText
+                        android:id="@+id/contactAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Address*"
+                        android:inputType="textPostalAddress"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!--<EditText-->
+                    <!--android:id="@+id/contactAddress"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginRight="10dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/custom_edittext"-->
+                    <!--android:hint="Address*"-->
+                    <!--android:inputType="textPostalAddress"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:textSize="@dimen/layout_formtext" />-->
+
+                <!--<EditText-->
+                <!--android:id="@+id/bloodBags"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/custom_edittext"-->
+                <!--android:hint="Blood Bags*"-->
+                <!--android:inputType="number"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="@dimen/layout_formtext" />-->
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1">
+
+                <EditText
+                    android:id="@+id/setDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Donation Date*"
+                    android:inputType="none"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:weightSum="10">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/donationDate"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="9"-->
+                    <!--android:background="@drawable/custom_edittext"-->
+                    <!--android:gravity="left"-->
+                    <!--android:hint="Donation Date*"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:textSize="@dimen/layout_formtext" />-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="30dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:onClick="setDate"-->
+                    <!--android:src="@drawable/choose_bdate" />-->
+            <!--</LinearLayout>-->
+
+            <EditText
+                android:id="@+id/request_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/checkbox_border"
+                android:hint="Please write your message...."
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sendRequest"
+                style="@style/ButtonText"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/login_button"
+                android:text="Send" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

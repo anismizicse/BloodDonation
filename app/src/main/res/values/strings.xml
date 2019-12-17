@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">LifeCycle</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="action_settings">Settings</string>
+    <string name="more_apps">More Apps</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="request">Request</string>
+
+    <string name="doctor_care">Doctor Care</string>
+    <string name="doctor_phone">01709848482</string>
+    <string name="ambulance_number">01709848483</string>
+    <string name="my_status">My Status</string>
+
+    <string name="hotline">01923589277</string>
+
+    <string name="admin_phone">01923589278</string>
+    <string name="admin_pass">anisur</string>
+
+    <string name="phone_no">phone_no</string>
+
+
+    <string name="email">Email Id</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="login_register">New user, tap here to register !</string>
+    <string name="register">Register</string>
+
+    <string name="user_successfully_added">User successfully added!</string>
+    <string name="user_unable_to_add">Unable to add user!</string>
+    <string name="adding_user_to_db">Adding user to livechat database.</string>
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please wait...</string>
+
+    <string name="font_family_roboto_light">sans-serif-thin</string>
+    <string name="type_a_message">Type a message...</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="logout">Logout</string>
+    <string name="are_you_sure">Are you sure ?</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="server_url">https://lifecyclebd.org/BloodDonation/</string>
+    <!--<string name="local_server_url">http://192.168.0.101/BloodDonation/</string>-->
+    <!--<string name="temp_phone">01923589277</string>-->
+    <string name="donors">Donors</string>
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="about">About</string>
+    <string name="lbl_forgot_password">Reset live chat login pass</string>
+    <string name="forgot_password_msg">Please provide your live chat email address. You will recieve a password reset link.</string>
+    <string name="hint_email">example@gmail.com</string>
+    <string name="btn_reset_password">Reset</string>
+    <string name="btn_back">Back</string>
+    <string name="imageuploadlink">http://swadhinbarta.com/BloodDonation/profileImages/</string>
+
+    <string name="btnIntend">Take (big) Picture</string>
+    <string name="btnIntendS">Take (small) Picture</string>
+    <string name="btnIntendV">Take Video</string>
+    <string name="cannot">Cannot</string>
+    <string name="album_name">CameraSample</string>
+    <string name="about_us">প্রায় ৩ বছর আগে ছোট্ট একটি পরিচ্ছন্ন কর্মসূচীর মাধ্যমে  Life Cycle এর যাত্রা শুরু হলেও দীর্ঘ ৩
+        বছরের পথচলায় অনেক কর্মসূচী সমাজের চাহিদায় সংযুক্ত হয়েছে । বাস্তবতায় Life Cycle এখন সমাজের সুবিধা বঞ্চিত থেকে শুরু করে এলিট
+        শ্রেণী-পেশা মানুষের জীবন ধারার একটি অংশে পরিগণিত হচ্ছে । জীবনচক্র যেমন জম্ম থেকে মৃত্যু পর্যন্ত তেমনি আমাদের কাজগুলোও মানুষের জম্ম
+        থেকে শুরু করে মৃত্যু পর্যন্ত বিভিন্ন সেচ্ছামুলক কাজের স্বমন্বয়ে সাজানো । সদ্য জম্ম নেয়া নবজাতককে  Life Cycle এর সদস্যরা ফুল ও মিষ্টি দিয়ে বরন
+        করে নেয় তাছাড়া বাবা মায়ের জন্য সবচেয়ে কষ্টসাধ্য কাজটি অর্থ্যাৎ নাম রাখার সুবির্ধাথে উপহার দেয় ‘‘ সুন্দর নাম রাখার বই ’’।
+        নবজাতককে কখন , কোথায় , কিভাবে টিকা ও চিকিৎসা করবে তার জন্য  Life Cycle এ পুরো সপ্তাহে জুড়ে ডাক্তার এর ব্যবস্থা আছে ।
+        জরুরী স্বাস্থ্য সেবার জন্য প্রস্তুত আছে  Life Cycle এর ২৪ ঘন্টা সার্ভিস এর এ্যাম্বুলেন্স । এছাড়া স্বনামধন্য ডাক্তার এর ফোন নম্বর, সিরিয়াল,
+        ভিজিটিং আওয়ার , ভিজিটিং ফি , কোথায় ও কখন বসে সবকিছুই জানা যাবে । তাছাড়া  Life Cycle এ পাওয়া যাবে টেলিমেডিসিন সেবা অর্থ্যাৎ
+        ২৪ ঘন্টায় টেলিফোনে পেসক্রিপশন সার্ভিস ।</string>
+    <string name="mission">জীবন বাচাঁতে সাহায্যকারী যে রক্ত, যার অভাবে লক্ষ লক্ষ মানুষ প্রতি বছর মারা যাচ্ছে । সেই রক্তের কেন্দ্রীয় ডাটা সংগ্রহ ও এলাকাভিত্তিক রক্ত সরবরাহ আমরাই বাংলাদেশে প্রথম প্রচলন করি । যার মাধ্যমে প্যাকেটজাত রক্ত পরিহার করে সাহায্যকারী  নিজ নিজ এলাকার ডোনার এর মাধ্যমে ফ্রেশ রক্তের ব্যবস্থা করে থাকে  Life Cycle । শুধু জীবন বাচাঁতে নয় মৃত্যুর পরও আমরা  মৃত্যু ব্যক্তির গোসল-কাফন থেকে শুরু করে  কবরের জায়গা খোজা , কবর খোড়া ও চুড়ান্ত দাফনের সময় আমরা থাকি। এ সকল কাজ  Life Cycle এ ভিত্তি হলেও অন্যান্য সকল সমাজ কল্যান মুলক কাজে  Life Cycle সব সময় সবার পাশে সবার আগে ।</string>
+    <string name="vision">বর্তমানে স্বাস্থ্যসেবা খাতটি  নাজুক হওয়ায় এই খাতটি বিশেষ প্রাধান্য দিয়ে আমরা কাজ করছি হত দরিদ্র শ্রেণী থেকে শুরু করে ধনাঢ্য শ্রেণী পর্যন্ত । মানুষকে  বিভিন্ন সেবা ও তথ্য প্রদানের মাধ্যমে  সহযোগীতার জন্য  Life Cycle এর প্রচেষ্টা । ২০১৫ সাল থেকে রক্তের কেন্দ্রীয় ডাটা সংগ্রহ ও এলাকাভিত্তিক রক্ত সরবরাহের মাধ্যমে আমাদের যাত্রা শুরু হয় । জম্মকালীন নবজাতককে ক্ষুদ্র পরিসরে উপহার ও নামের বই প্রদান এবং মৃত্যুকালীন দাফন-কাফনের ব্যবস্থা, নবজাতককে স্বাস্থ্য সেবা ও ডাক্তার এর মাধ্যমে পরামর্শ সেবা শুরু হয়েছে ২০১৭ সাল থেকে । ডাক্তার , হাসপাতাল , এ্যাম্বুলেন্স এর কেন্দ্রীয় তথ্য সরবরাহ এবং হতদরিদ্র রোগীদের স্বল্প ব্যয়ে উন্নত চিকিৎসা ব্যবস্থা করা শুরু হবে ২০১৮ সালে ।
+Bloodinfobd.com এর মাধ্যমে কেন্দ্রীয় রক্তের ডাটাকরন ও এলাকা ভিত্তিক সরবরাহ ২০১৫ সাল থেকে শুরু করে প্রায় ১০,০০০ সদস্য তৈরী করতে সক্ষম হয়েছি । আশাকরি সকলের সম্মিলিত প্রচেষ্টায় ২০২০ সালের মধ্যে বাংলাদেশের সবচেয়ে বৃহৎ ও বিশ্বের অন্যতম সেচ্ছাসেবক প্রতিষ্ঠান হিসেবে প্রতিষ্ঠিত হবে যার সদস্য সংখ্যা হবে প্রায় ১০,০০,০০০ । এই লক্ষ্যকে সামনে রেখে আপাতত ঢাকা সিটির বিভিন্ন এলাকায় সামাজিক সংগঠনের , সেচ্ছাসেবী সংগঠন , কলেজ , বিশ্ববিদ্যালয়ের সাথে যোগাযোগ করে ফ্রি রক্তের গ্রুফ ও ডেটাবেজ সংরক্ষনের কাজ ব্যাপক ভাবে এগিয়ে যাচ্ছে । ঢাকার পর আমরা অন্যান্য বিভাগীয় শহর চট্রগ্রাম, খুলনা, রংপুর, রাজশাহী, ময়মনসিংহ , সিলেট এবং বরিশালে কাজের পরিধি বৃদ্ধি করা হবে । যা ইতিমধ্যে আমরা শুরু করেছি । জম্মকালীন নবজাতকদের জন্য  Life Cycle এর মতই আমরা সকল জায়গায় সেচ্ছাসেবক গঠনের কাজ শুরু করেছি  যা খুব দ্রুত সময়ে সকলের মাঝে ছড়িয়ে যাবে । হাসপাতাল ও ডাক্তারদের তথ্য সংগ্রহ প্রায় শেষ পর্যায়ে । এই তথ্যকে সকলের জন্য উম্মুক্ত করা হবে খুব শিগ্রই । এছাড়া হত দরিদ্র ও নিঃস্ব মানুষকে খুব স্বল্প ব্যয়ে উন্নত চিকিৎসার জন্য আমরা বিভিন্ন হাসপাতালে যোগাযোগ করিতেছি । মানুষের জরুরী চিকিৎসায় যাতে ২৪ ঘন্টা এ্যাম্বুলেন্স পায় সেই জন্য আমাদের সর্বোচ্চ তৎপরতা চালাচ্ছি বিভিন্ন সংস্থা ও সেবা প্রতিষ্ঠানের সাথে যোগাযোগ সম্পন্ন হয়েছে । মৃত্যুকালীন বিভিন্ন প্রয়োজনীয়তা যেমন মাইকিং, গোসলের ব্যবস্থা, দাফন-কাফনের ব্যবস্থা  Life Cycle এর সদস্যরা যার যার এলাকা থেকে খুব দ্রুত সময়ে মানবতার কল্যানের জন্য সাহায্য করবে । সর্বপরি যে কোন ধরনের মানবতার কল্যাণ বা দূর্যোগে আমরা সবসময় সবার আগে সবার পাশে । মানবতার কল্যানে যেন প্রত্যেক মানুষের জীবনের পরতে পরতে সাহায্য করতে পারি এটাই হবে  Life Cycle এর একমাএ লক্ষ্য ।  Life Cycle যেন ক্ষুদ্র পরিসর থেকে সমগ্র দেশের মানুষের জীবন চক্রের ধাপে ধাপে মানবতার কল্যান করতে পারে যা বিশ্বব্যাপী সকলের অনুপ্রেরণার উৎস হয় ।</string>
+    <string name="anis_mizi_desc">Anis Mizi is a Software Engineer at DreamIT, has developed more than 30 software
+        including LifeCycle android application. Other areas that best suit his skills are SEO,
+        Online Marketing, and Team Leading. He is knlowledgeable in Java, C, C++, Android, Java Swing, PHP,
+        JQuery, MySql, HTML, and CSS. He has worked more than 8500 hours on different areas at Upwork.</string>
+    <string name="shaheen_desc">Abdullah Shaheen, CEO of Skybare IT Solution, has developed and designed many web
+        applications. He is the designer of lifecycle android and lifecyclebd.org web application.
+        He is knowledgeable in java, C, C++, PHP, MySql, HTML and CSS. He is also expert on WordPress and
+        laravel framework. His versatile skills also cover the area on online marketing, team leading,
+        creative graphics and art designing, networking and so on.
+    </string>
+    <string name="rashed_desc">Md. Rasheduzzaman is a freelance software engineer, has developed more than 40
+        web applications including lifecyclebd.org. He is expert on java, android, PHP, PHP framework, java script,
+        jQuery, HTML and CSS. He has worked in many renowned company such as United Group, Baishakhi TV as a
+        software engineer.
+    </string>
+
+    <string name="maps_places_api" translatable="false">AIzaSyA3-Z99_NmDZJru7HpORPMs7kbAWGi9RLQ</string>
+
+    <string-array name="blood_group">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string-array name="divsion_list">
+        <item>Dhaka</item>
+        <item>Barisal</item>
+        <item>Chittagong</item>
+        <item>Sylhet</item>
+        <item>Rangpur</item>
+        <item>Rajshahi</item>
+        <item>Khulna</item>
+    </string-array>
+
+    <string-array name="district_list">
+        <item>Bagerhat</item>
+        <item>Bandarban</item>
+        <item>Barguna</item>
+        <item>Barisal</item>
+        <item>Bhola</item>
+        <item>Bogra</item>
+        <item>Brahmanbaria </item>
+        <item>Chandpur</item>
+        <item>Chittagong</item>
+        <item>Chuadanga</item>
+        <item>Comilla</item>
+        <item>Cox\'s Bazar </item>
+        <item>Chapainababganj</item>
+        <item>Dhaka</item>
+        <item>Dinajpur </item>
+        <item>Faridpur</item>
+        <item>Feni </item>
+        <item>Gaibandha</item>
+        <item>Gazipur</item>
+        <item>Gopalganj </item>
+        <item>Habiganj </item>
+        <item>Jaipurhat</item>
+        <item>Jamalpur</item>
+        <item>Jessore</item>
+        <item>Jhalakati</item>
+        <item>Jhenaidah </item>
+        <item>Khagrachari</item>
+        <item>Khulna</item>
+        <item>Kishoreganj</item>
+        <item>Kurigram</item>
+        <item>Kushtia </item>
+        <item>Lakshmipur</item>
+        <item>Lalmonirhat </item>
+        <item>Madaripu</item>
+        <item>Magura</item>
+        <item>Manikganj</item>
+        <item>Meherpur</item>
+        <item>Moulvibazar</item>
+        <item>Munshiganj</item>
+        <item>Mymensingh</item>
+        <item>Naogaon</item>
+        <item>Narail</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi</item>
+        <item>Natore</item>
+        <item>Netrokona</item>
+        <item>Nilphamari</item>
+        <item>Noakhali </item>
+        <item>Pabna</item>
+        <item>Panchagarh</item>
+        <item>Patuakhali</item>
+        <item>Pirojpur</item>
+        <item>Rajbari</item>
+        <item>Rajshahi</item>
+        <item>Rangamati</item>
+        <item>Rangpur </item>
+        <item>Satkhira</item>
+        <item>Shariatpur</item>
+        <item>Sherpur</item>
+        <item>Sirajganj</item>
+        <item>Sunamganj</item>
+        <item>Sylhet </item>
+        <item>Tangail</item>
+        <item>Thakurgaon</item>
+    </string-array>
+
+</resources>
